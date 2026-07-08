@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
 import HireMe from '@/components/HireMe'
+import IdeaBulb from '@/components/IdeaBulb'
 import TransitionEffect from '@/components/TransitionEffect'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
@@ -73,6 +74,7 @@ export default function Home() {
           
           {/* Spinning Hire Me Badge */}
           <HireMe />
+          <IdeaBulb />
         </main>
         <Footer />
       </div>
