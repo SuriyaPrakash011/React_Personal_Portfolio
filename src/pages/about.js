@@ -25,9 +25,9 @@ const SkillBadge = ({ name, x, y }) => {
 // Timeline Entry Component
 const TimelineItem = ({ title, place, time, description, grade }) => {
   return (
-    <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
+    <li className='relative pl-10 md:pl-8 my-8 first:mt-0 last:mb-0 w-full flex flex-col items-start justify-between'>
       {/* Bullet Dot */}
-      <div className="absolute left-[50%] -translate-x-[50%] w-6 h-6 flex items-center justify-center rounded-full bg-light dark:bg-dark border-2 border-solid border-primary dark:border-primaryDark shadow-[0_0_10px_rgba(88,230,217,0.6)]">
+      <div className="absolute left-0 top-1 w-6 h-6 flex items-center justify-center rounded-full bg-light dark:bg-dark border-2 border-solid border-primary dark:border-primaryDark shadow-[0_0_10px_rgba(88,230,217,0.6)] z-10">
         <div className="w-2.5 h-2.5 bg-primary dark:bg-primaryDark rounded-full"></div>
       </div>
       
@@ -160,9 +160,9 @@ export default function About() {
               {/* Timeline Container */}
               <div className='relative w-[75%] mx-auto md:w-full'>
                 {/* Vertical Center Line */}
-                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
+                <div className="absolute left-3 md:left-[13px] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
                 
-                <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+                <ul className='w-full flex flex-col items-start justify-between'>
                   <TimelineItem 
                     title="B.E. in Computer Science Engineering (AI & ML)"
                     place="Sethu Institute of Technology"
@@ -195,9 +195,9 @@ export default function About() {
               {/* Timeline Container */}
               <div className='relative w-[75%] mx-auto md:w-full'>
                 {/* Vertical Center Line */}
-                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
+                <div className="absolute left-3 md:left-[13px] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
                 
-                <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+                <ul className='w-full flex flex-col items-start justify-between'>
                   <TimelineItem 
                     title="AI with Python"
                     place="Infosys SpringBoard"
