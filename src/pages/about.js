@@ -75,7 +75,7 @@ export default function About() {
               <div className='col-span-5 flex flex-col items-start justify-start lg:col-span-8'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                 <p className='font-medium leading-relaxed mb-4'>
-                  I am a final year Computer Science Engineering student specializing in AI & Machine Learning at Sethu Institute of Technology. I have hands-on experience in building, training, and assessing machine learning and deep learning models for real-world applications.
+                  I am a recent Computer Science Engineering graduate specializing in AI & Machine Learning from Sethu Institute of Technology. I have hands-on experience in building, training, and assessing machine learning and deep learning models for real-world applications.
                 </p>
                 <p className='font-medium leading-relaxed mb-4'>
                   My expertise spans Natural Language Processing (NLP) and Computer Vision, where I enjoy solving complex problems using data-driven approaches. I am passionate about engineering clean architectures and combining advanced algorithms with frontend interfaces.

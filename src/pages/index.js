@@ -45,12 +45,12 @@ export default function Home() {
                 />
                 
                 <p className='my-4 text-base font-medium md:text-sm sm:!text-xs leading-relaxed'>
-                  As a passionate Computer Science student specializing in AI & Machine Learning, I am dedicated to building intelligent solutions that solve complex, real-world problems. Explore my latest projects, certifications, and technical expertise in Deep Learning, NLP, and Computer Vision.
+                  As a recent Computer Science Engineering graduate specializing in AI & Machine Learning, I am dedicated to building intelligent solutions that solve complex, real-world problems. Explore my latest projects, certifications, and technical expertise in Deep Learning, NLP, and Computer Vision.
                 </p>
 
                 <div className='mt-2 flex items-center self-start lg:self-center gap-x-4'>
                   <Link 
-                    href="/dummy.pdf" 
+                    href="/Suriya_Prakash_Resume.pdf" 
                     target="_blank" 
                     className="flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light md:p-2 md:px-4 md:text-base transition duration-300"
                     download
