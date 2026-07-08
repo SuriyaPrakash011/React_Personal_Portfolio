@@ -27,7 +27,9 @@ const TimelineItem = ({ title, place, time, description, grade }) => {
   return (
     <li className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between md:w-[80%]'>
       {/* Bullet Dot */}
-      <div className="absolute left-[50%] -translate-x-[50%] w-4 h-4 bg-primary dark:bg-primaryDark rounded-full border-4 border-solid border-light dark:border-dark shadow-sm"></div>
+      <div className="absolute left-[50%] -translate-x-[50%] w-6 h-6 flex items-center justify-center rounded-full bg-light dark:bg-dark border-2 border-solid border-primary dark:border-primaryDark shadow-[0_0_10px_rgba(88,230,217,0.6)]">
+        <div className="w-2.5 h-2.5 bg-primary dark:bg-primaryDark rounded-full"></div>
+      </div>
       
       <motion.div 
         initial={{ y: 50, opacity: 0 }}
@@ -158,7 +160,7 @@ export default function About() {
               {/* Timeline Container */}
               <div className='relative w-[75%] mx-auto md:w-full'>
                 {/* Vertical Center Line */}
-                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[4px] h-full bg-dark dark:bg-light origin-top"></div>
+                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
                 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                   <TimelineItem 
@@ -193,7 +195,7 @@ export default function About() {
               {/* Timeline Container */}
               <div className='relative w-[75%] mx-auto md:w-full'>
                 {/* Vertical Center Line */}
-                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[4px] h-full bg-dark dark:bg-light origin-top"></div>
+                <div className="absolute left-[50%] -translate-x-[50%] top-0 w-[3px] h-full bg-primary dark:bg-primaryDark origin-top shadow-[0_0_8px_rgba(88,230,217,0.5)]"></div>
                 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                   <TimelineItem 
