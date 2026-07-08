@@ -26,13 +26,13 @@ export default function Home() {
               
               {/* Left Column: Profile Image */}
               <div className='w-1/2 lg:hidden md:inline-block md:w-full flex justify-center items-center pr-12 lg:pr-0'>
-                <div className='relative w-full max-w-[500px] aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-solid border-dark dark:border-light bg-dark/5 dark:bg-light/5'>
+                <div className='relative w-full max-w-[360px] aspect-square rounded-full overflow-hidden shadow-xl ring-4 ring-dark/80 dark:ring-light/80 ring-offset-4 ring-offset-light dark:ring-offset-dark bg-dark/5 dark:bg-light/5'>
                   <Image 
                     src={profilePic} 
                     alt="Suriya Prakash M" 
                     className='w-full h-full object-cover object-top'
                     priority
-                    sizes="(max-width: 768px) 100vw, 50vw"
+                    sizes="(max-width: 768px) 100vw, 40vw"
                   />
                 </div>
               </div>
